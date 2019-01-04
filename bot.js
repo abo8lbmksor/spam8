@@ -14,6 +14,7 @@ var channel = "530879506584698891";//ايدي الروم
     },305);
 })
 
+
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
